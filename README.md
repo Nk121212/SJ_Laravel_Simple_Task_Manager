@@ -72,23 +72,19 @@ Fitur:
 
 ## Setup
 
-1. Clone repo ini
+1. Clone repo ini https://github.com/Nk121212/SJ_Laravel_Simple_Task_Manager.git
 2. Install dependency
-    ```bash
-    composer install
-    npm install && npm run dev
-    ```
-3. Buat database MySQL js_task_management
-4. Copy .env.example ke .env lalu set konfigurasi DB
-5. Generate key -> php artisan key:generate
-6. Jalankan migrasi -> php artisan migrate
-7. Jalankan server -> php artisan serve
-8. Buka di browser: http://127.0.0.1:8000
+   `composer install`
+   `npm install && npm run dev`
+3. Buat database MySQL `js_task_management`
+4. Copy `.env.example` ke `.env` lalu set konfigurasi DB
+5. Generate key -> `php artisan key:generate`
+6. Jalankan migrasi -> `php artisan migrate`
+7. Jalankan server -> `php artisan serve`
+8. Buka di browser: `http://127.0.0.1:8000`
 
 ## Catatan
 
 Default view menggunakan Blade sederhana.
-
 Reorder dilakukan via Sortable.js.
-
 Project dropdown menampilkan task sesuai project.
